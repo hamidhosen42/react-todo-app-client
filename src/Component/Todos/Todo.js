@@ -15,7 +15,6 @@ const Todo = ({ todo, todos, setTodos }) => {
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
           const remaining = todos.filter((todo) => todo._id !== id);
           setTodos(remaining);
           toast.error("Todo Deleted");
