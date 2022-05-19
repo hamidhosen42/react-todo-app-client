@@ -28,7 +28,7 @@ const Todo = ({ todo, todos, setTodos }) => {
   };
 
   return (
-    <div className="card lg:max-w-lg bg-base-100 shadow-xl">
+    <div className="card lg:max-w-lgshadow-xl">
       <div className="card-body">
         <h2 style={{ textDecoration: strike }}>
           <span className="font-bold">Task Name</span>: {taskName}

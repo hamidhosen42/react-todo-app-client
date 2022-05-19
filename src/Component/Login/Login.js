@@ -22,7 +22,7 @@ const Login = () => {
   }
 
   return (
-    <div className="h-screen  flex justify-center items-center">
+    <div className="h-screen   flex justify-center items-center">
       <button className="btn btn-outline" onClick={() => signInWithGoogle()}>
         Login with Google
       </button>

@@ -6,6 +6,7 @@ import Login from './Component/Login/Login';
 import RequireAuth from './Component/Login/RequireAuth';
 import Navbar from './Component/Shared/Navbar';
 import Todos from './Component/Todos/Todos';
+ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
