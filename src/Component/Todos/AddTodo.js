@@ -6,7 +6,6 @@ const AddTodo = () => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data.description);
     const url = `http://localhost:5000/todo`;
     fetch(url, {
       method: "POST",
